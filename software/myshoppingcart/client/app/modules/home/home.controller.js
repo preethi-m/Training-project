@@ -1,10 +1,18 @@
 (function(){
-
+    "use strict";
     angular.module('app.home')
         .controller('SimpleController', SimpleController);
 
-    function SimpleController() {
+    SimpleController.$inject = ['DataFactory'];
+
+    function SimpleController(DataFactory) {
+        var product = {};
         var vm = this;
-        vm.welcomeTxt = "I'm in home page";
+        DataFactory.content().success(function(jsondata) {
+            vm.data = jsondata;
+        })
     }
+
+
+
 }());

@@ -1,1 +1,33 @@
-{{ hc.welcomeTxt }}
+<ui-select ng-model = 'sc.selected' theme="bootstrap" reset-search-input = "false">
+<ui-select-match placeholder = "Search for Products">
+{{$select.selected.name}}
+</ui-select-match>
+
+<ui-select-choices repeat = 'e in sc.data | filter :$select.search'>
+{{e.name}}
+</ui-select-choices>
+</ui-select>
+
+
+<div class = "display" ng-repeat="x in sc.data | orderBy: '-_rating' | limitTo : 2" >
+
+    <div ng-if="x.subType==='mobile'">
+        <hr>
+        <img src="app/images/{{x.id}}.jpeg">
+        {{ x.name }}<br>
+        {{ x.price }}<br>
+        <!--{{x.subType}}-->
+    </div>
+
+    <!--{{ x._rating }}-->
+</div>
+<div class = "display1" ng-repeat="x in sc.data | orderBy: '-_rating' | limitTo : 2" >
+
+    <div ng-if="x.subType==='laptop'">
+        <hr>
+        <img src="app/images/{{x.id}}.jpeg">
+        {{ x.name }}<br>
+        {{ x.price }}<br>
+        <!--{{x.subType}}-->
+    </div>
+</div>
