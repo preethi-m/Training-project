@@ -6,7 +6,7 @@
     "description": "SAMSUNG Galaxy 1 is a smart phone and blah blah",
     "type": "electronics",
     "subType": "mobile",
-    "_rating":"1",
+    "_rating": 1,
     "brand": "Samsung",
     "RAM": "1GB",
     "modelName": "Galaxy 1",
@@ -50,7 +50,7 @@
     "description": "SAMSUNG Galaxy 2 is a smart phone and blah blah",
     "type": "electronics",
     "subType": "mobile",
-    "_rating":"2",
+    "_rating": 2,
     "brand": "Samsung",
     "RAM": "1GB",
     "modelName": "Galaxy 2",
@@ -94,7 +94,7 @@
     "description": "SAMSUNG Galaxy On3 is a smart phone and blah blah",
     "type": "electronics",
     "subType": "mobile",
-    "_rating":"3",
+    "_rating": 3,
     "brand": "Samsung",
     "RAM": "1GB",
     "modelName": "Galaxy On3",
@@ -132,13 +132,57 @@
     ]
   },
   {
-    "id":"ELEC_PRD_4",
+    "id": "ELEC_PRD_4",
+    "name": "SAMSUNG Galaxy On7 Pro",
+    "price": 9990,
+    "description": "Samsung Galaxy On7 Pro runs Android 6.0 Marshmallow",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 4,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "Galaxy On7 Pro",
+    "color": "Gold",
+    "battery": "3000 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_5",
     "name": "SAMSUNG NOTEBOOK",
     "price": 35500,
     "description": "SAMSUNG NOTEBOOK is a smart phone and blah blah",
     "type": "electronics",
     "subType": "laptop",
-    "_rating":"5",
+    "_rating": 6,
     "brand": "Samsung",
     "RAM": "1GB",
     "modelName": "Galaxy Note 3",
@@ -170,7 +214,1889 @@
         "amount": 2000
       }
     ]
+  },
+  {
+    "id": "ELEC_PRD_6",
+    "name": "SAMSUNG Galaxy On 5",
+    "price": 7490,
+    "description": "SAMSUNG Galaxy On 5 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 2,
+    "brand": "Samsung",
+    "RAM": "1.5GB",
+    "modelName": "Galaxy On 5",
+    "color": "Black",
+    "battery": "2600 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_7",
+    "name": "SAMSUNG Galaxy J5",
+    "price": 11990,
+    "description": "SAMSUNG Galaxy J5 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 3.5,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "Galaxy J5",
+    "color": "Black",
+    "battery": "3100 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_8",
+    "name": "SAMSUNG Galaxy On 8",
+    "price": 14900,
+    "description": "SAMSUNG Galaxy On 8 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 4,
+    "brand": "Samsung",
+    "RAM": "3GB",
+    "modelName": "Galaxy On 8",
+    "color": "Black",
+    "battery": "3300 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_9",
+    "name": "SAMSUNG Galaxy J7 Prime",
+    "price": 16740,
+    "description": "SAMSUNG Galaxy J7 Prime is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 5,
+    "brand": "Samsung",
+    "RAM": "3GB",
+    "modelName": "Galaxy J7 Prime",
+    "color": "Black",
+    "battery": "3300 mAh Li-Ion Battery",
+    "camera": {
+      "front": "8MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_10",
+    "name": "SAMSUNG Galaxy J7",
+    "price": 11888,
+    "description": "SAMSUNG Galaxy J7 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 3.5,
+    "brand": "Samsung",
+    "RAM": "1.5GB",
+    "modelName": "Galaxy J7",
+    "color": "Black",
+    "battery": "3000 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_11",
+    "name": "SAMSUNG Galaxy J2",
+    "price": 7457,
+    "description": "SAMSUNG Galaxy J2 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 1,
+    "brand": "Samsung",
+    "RAM": "1GB",
+    "modelName": "Galaxy J2",
+    "color": "Black",
+    "battery": "2000 mAh Li-Ion Battery",
+    "camera": {
+      "front": "2MP",
+      "rear": "5MP"
+    },
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_12",
+    "name": "SAMSUNG NP530",
+    "price": 53000,
+    "description": "SAMSUNG NP530 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 4,
+    "brand": "Samsung",
+    "RAM": "6GB",
+    "modelName": "NP530",
+    "color": "Gold",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_13",
+    "name": "SAMSUNG NP550",
+    "price": 58890,
+    "description": "SAMSUNG NP550 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 5,
+    "brand": "Samsung",
+    "RAM": "6GB",
+    "modelName": "NP550",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_14",
+    "name": "SAMSUNG NP370",
+    "price": 40688,
+    "description": "SAMSUNG NP370 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 3,
+    "brand": "Samsung",
+    "RAM": "4GB",
+    "modelName": "NP370",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_15",
+    "name": "SAMSUNG NP300",
+    "price": 33548,
+    "description": "SAMSUNG NP300 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 2,
+    "brand": "Samsung",
+    "RAM": "4GB",
+    "modelName": "NP300",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_16",
+    "name": "SAMSUNG NP350",
+    "price": 36955,
+    "description": "SAMSUNG NP350 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 3,
+    "brand": "Samsung",
+    "RAM": "4GB",
+    "modelName": "NP350",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_17",
+    "name": "SAMSUNG NP RV 509",
+    "price": 32500,
+    "description": "SAMSUNG NP RV 509 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 3,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "NP RV 509",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_18",
+    "name": "SAMSUNG NP R440",
+    "price": 41990,
+    "description": "SAMSUNG NP R440 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 3.5,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "NP R 440",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_19",
+    "name": "SAMSUNG R528",
+    "price": 27000,
+    "description": "SAMSUNG R528 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 1,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "R528",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_20",
+    "name": "SAMSUNG NP355",
+    "price": 24000,
+    "description": "SAMSUNG NP355 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 1.5,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "NP355",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_21",
+    "name": "SAMSUNG Galaxy On Nxt",
+    "price": 16900,
+    "description": "SAMSUNG Galaxy On Nxt is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 4,
+    "brand": "Samsung",
+    "RAM": "3GB",
+    "modelName": "Galaxy On Nxt",
+    "color": "Black",
+    "battery": "3300 mAh Li-Ion Battery",
+    "camera": {
+      "front": "8MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_22",
+    "name": "SAMSUNG Z2",
+    "price": 4550,
+    "description": "SAMSUNG Z2 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 1,
+    "brand": "Samsung",
+    "RAM": "1GB",
+    "modelName": "Z2",
+    "color": "Black",
+    "battery": "1500 mAh Li-Ion Battery",
+    "camera": {
+      "front": "0MP",
+      "rear": "5MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_23",
+    "name": "SAMSUNG Galaxy J1",
+    "price": 5500,
+    "description": "SAMSUNG Galaxy J1 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 3.5,
+    "brand": "Samsung",
+    "RAM": "1GB",
+    "modelName": "Galaxy J1",
+    "color": "Gold",
+    "battery": "2050 mAh Li-Ion Battery",
+    "camera": {
+      "front": "2MP",
+      "rear": "5MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_24",
+    "name": "SAMSUNG Galaxy J2",
+    "price": 8400,
+    "description": "SAMSUNG Galaxy J2 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 4,
+    "brand": "Samsung",
+    "RAM": "1.5GB",
+    "modelName": "Galaxy J2",
+    "color": "Gold",
+    "battery": "2600 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_25",
+    "name": "SAMSUNG Galaxy S7 Edge",
+    "price": 57850,
+    "description": "SAMSUNG Galaxy S7 Edge is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 5,
+    "brand": "Samsung",
+    "RAM": "4GB",
+    "modelName": "Galaxy S7 Edge",
+    "color": "Gold",
+    "battery": "3600 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "12MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_26",
+    "name": "SAMSUNG Galaxy J3",
+    "price": 7740,
+    "description": "SAMSUNG Galaxy J3 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 2.5,
+    "brand": "Samsung",
+    "RAM": "1.5GB",
+    "modelName": "Galaxy J3",
+    "color": "Gold",
+    "battery": "2600 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_27",
+    "name": "SAMSUNG Galaxy J2 Pro",
+    "price": 9490,
+    "description": "SAMSUNG Galaxy J2 Pro is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 3.5,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "Galaxy J2 Pro",
+    "color": "Gold",
+    "battery": "2600 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_28",
+    "name": "SAMSUNG Galaxy Note 4",
+    "price": 26000,
+    "description": "SAMSUNG Galaxy Note 4 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 4.5,
+    "brand": "Samsung",
+    "RAM": "3GB",
+    "modelName": "Galaxy Note 4",
+    "color": "Black",
+    "battery": "3220 mAh Li-Ion Battery",
+    "camera": {
+      "front": "3.7MP",
+      "rear": "16MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_29",
+    "name": "SAMSUNG Galaxy S7",
+    "price": 37999,
+    "description": "SAMSUNG Galaxy S7 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 2.5,
+    "brand": "Samsung",
+    "RAM": "4GB",
+    "modelName": "Galaxy S7",
+    "color": "Gold",
+    "battery": "3000 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "12MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_30",
+    "name": "SAMSUNG Galaxy J5",
+    "price": 14250,
+    "description": "SAMSUNG Galaxy J5 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 2.5,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "Galaxy J5",
+    "color": "Gold",
+    "battery": "2400 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_31",
+    "name": "SAMSUNG Galaxy A9 Pro",
+    "price": 31990,
+    "description": "SAMSUNG Galaxy A9 Pro is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 4.5,
+    "brand": "Samsung",
+    "RAM": "4GB",
+    "modelName": "Galaxy A9 Pro",
+    "color": "Gold",
+    "battery": "4000 mAh Li-Ion Battery",
+    "camera": {
+      "front": "8MP",
+      "rear": "16MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_32",
+    "name": "SAMSUNG Galaxy A8",
+    "price": 23990,
+    "description": "SAMSUNG Galaxy A8 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 4,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "Galaxy A8",
+    "color": "Gold",
+    "battery": "3050 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "16MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_33",
+    "name": "SAMSUNG Galaxy Note 5",
+    "price": 40900,
+    "description": "SAMSUNG Galaxy Note 5 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 4.5,
+    "brand": "Samsung",
+    "RAM": "4GB",
+    "modelName": "Galaxy Note 5",
+    "color": "Gold",
+    "battery": "3000 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "16MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_34",
+    "name": "SAMSUNG Galaxy A5",
+    "price": 21400,
+    "description": "SAMSUNG Galaxy A5 is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 4,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "Galaxy A5",
+    "color": "Gold",
+    "battery": "2900 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "13MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_35",
+    "name": "SAMSUNG Galaxy Grand Prime",
+    "price": 8250,
+    "description": "SAMSUNG Galaxy Grand Prime is a smart phone and blah blah",
+    "type": "electronics",
+    "subType": "mobile",
+    "_rating": 4,
+    "brand": "Samsung",
+    "RAM": "1GB",
+    "modelName": "Galaxy Grand Prime",
+    "color": "Gold",
+    "battery": "2400 mAh Li-Ion Battery",
+    "camera": {
+      "front": "5MP",
+      "rear": "8MP"
+    },
+    "comments": [
+      {
+        "text": "Worst phone",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome phone",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The phone does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "discount",
+        "percentage": 10
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_36",
+    "name": "SAMSUNG NP370",
+    "price": 44990,
+    "description": "SAMSUNG NP370 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 3.5,
+    "brand": "Samsung",
+    "RAM": "6GB",
+    "modelName": "NP370",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_37",
+    "name": "SAMSUNG NP300 E5C",
+    "price": 26400,
+    "description": "SAMSUNG NP300 E5C is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 3,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "NP300 E5C",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_38",
+    "name": "SAMSUNG NP305",
+    "price": 24700,
+    "description": "SAMSUNG NP305 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 4,
+    "brand": "Samsung",
+    "RAM": "4GB",
+    "modelName": "NP305",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_39",
+    "name": "SAMSUNG NP RV509",
+    "price": 21000,
+    "description": "SAMSUNG NP RV509 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 3.5,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "NP RV 509",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_40",
+    "name": "SAMSUNG NP300 E5X",
+    "price": 36955,
+    "description": "SAMSUNG NP300 E5X is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 3.5,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "NP300 E5X",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_41",
+    "name": "SAMSUNG NP355 E5X",
+    "price": 21400,
+    "description": "SAMSUNG NP355 E5X is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 4,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "NP355 E5X",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_42",
+    "name": "SAMSUNG NP370 R5E",
+    "price": 47550,
+    "description": "SAMSUNG NP370 R5E is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 4,
+    "brand": "Samsung",
+    "RAM": "6GB",
+    "modelName": "NP370 R5E",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_43",
+    "name": "SAMSUNG NP R522",
+    "price": 41914,
+    "description": "SAMSUNG NP R522 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 4,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "NP R522",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_44",
+    "name": "SAMSUNG NP300 E5Z",
+    "price": 35990,
+    "description": "SAMSUNG NP300 E5Z is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 3.8,
+    "brand": "Samsung",
+    "RAM": "4GB",
+    "modelName": "NP300 E5Z",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_45",
+    "name": "SAMSUNG NP305",
+    "price": 33790,
+    "description": "SAMSUNG NP305 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 3.9,
+    "brand": "Samsung",
+    "RAM": "4GB",
+    "modelName": "NP305",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_46",
+    "name": "SAMSUNG NP RV511",
+    "price": 29380,
+    "description": "SAMSUNG NP RV511 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 4,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "NP RV511",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_47",
+    "name": "SAMSUNG NP RV411",
+    "price": 26590,
+    "description": "SAMSUNG NP RV411 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 3.9,
+    "brand": "Samsung",
+    "RAM": "2GB",
+    "modelName": "NP RV411",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_48",
+    "name": "SAMSUNG NP RV515",
+    "price": 23990,
+    "description": "SAMSUNG NP RV515 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 4.5,
+    "brand": "Samsung",
+    "RAM": "4GB",
+    "modelName": "NP RV515",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_49",
+    "name": "SAMSUNG NP RV508",
+    "price": 21990,
+    "description": "SAMSUNG NP RV508 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 4.5,
+    "brand": "Samsung",
+    "RAM": "6GB",
+    "modelName": "NP RV508",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
+  },
+  {
+    "id": "ELEC_PRD_50",
+    "name": "SAMSUNG NP RV510",
+    "price": 45000,
+    "description": "SAMSUNG NP RV510 is a laptop and blah blah",
+    "type": "electronics",
+    "subType": "laptop",
+    "_rating" : 4.5,
+    "brand": "Samsung",
+    "RAM": "4GB",
+    "modelName": "NP RV510",
+    "color": "Black",
+    "battery": "12600 mAh Li-Ion Battery",
+    "comments": [
+      {
+        "text": "Worst notebook",
+        "rating": "1",
+        "commentedOn": "13/01/2017",
+        "username": "Jhon Deo"
+      },
+      {
+        "text": "Awesome notebook",
+        "rating": "5",
+        "commentedOn": "15/01/2017",
+        "username": "Jhon Deo brother"
+      },
+      {
+        "text": "Worth price. The notebook does not look cheap from any angle. Some have even confused this with the Galaxy A5, so this says a lot!",
+        "rating": "1",
+        "commentedOn": "14/01/2017",
+        "username": "Jhon Deo Sister"
+      }
+    ],
+    "offers": [
+      {
+        "type": "exchange",
+        "amount": 2000
+      }
+    ]
   }
-
-
 ]

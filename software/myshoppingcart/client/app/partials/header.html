@@ -32,12 +32,35 @@
 </div>
 
 
+<div class = "search" ng-controller = "SimpleController as sc ">
 
+    <ui-select ng-model = 'sc.selected' theme = "bootstrap" reset-search-input = "false">
 
+        <ui-select-match placeholder = "Search for Products">
+            {{$select.selected.name}} < {{$select.selected.price}} {{$select.selected._rating}}>
+        </ui-select-match>
 
+        <ui-select-choices refresh="sc.checkName($select.search)"
+                           refresh-delay="0"
+                           repeat = 'product in products | filter :$select.search | limitTo : sc.limitTime'>
+            {{product.name}}
+        </ui-select-choices>
+    </ui-select>
 
+</div>
 
-<footer>
+<!--<div class = "display" ng-repeat="product in products | orderBy: '-_rating' | limitTo : 5">-->
     <!--<hr>-->
-    Powered By Semantic Bits
-</footer>
+    <!--<div class = "pro">-->
+        <!--<a ui-sref = "productDetails({ id : product.id })"><img src="app/images/{{product.id}}.jpeg"></a><br>-->
+        <!--{{ product.name }}<br>-->
+        <!--{{ product.price }}-->
+    <!--</div>-->
+<!--</div>-->
+
+
+
+<!--<footer>-->
+    <!--&lt;!&ndash;<hr>&ndash;&gt;-->
+    <!--Powered By Semantic Bits-->
+<!--</footer>-->

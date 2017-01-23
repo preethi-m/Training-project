@@ -1,27 +1,29 @@
-<div class = "search">
+<!--<div class = "search">-->
 
-    <ui-select ng-model = 'sc.selected' theme = "bootstrap" reset-search-input = "false">
+    <!--<ui-select ng-model = 'sc.selected' theme = "bootstrap" reset-search-input = "false">-->
 
-        <ui-select-match placeholder = "Search for Products">
-            {{$select.selected.name}}
-        </ui-select-match>
+        <!--<ui-select-match placeholder = "Search for Products">-->
+            <!--{{$select.selected.name}}-->
+        <!--</ui-select-match>-->
 
-        <ui-select-choices refresh="sc.checkName($select.search)"
-                           refresh-delay="0"
-                           repeat = 'product in products | filter :$select.search | limitTo : sc.limitTime'>
-            {{product.name}}
-        </ui-select-choices>
-    </ui-select>
+        <!--<ui-select-choices refresh="sc.checkName($select.search)"-->
+                           <!--refresh-delay="0"-->
+                           <!--repeat = 'product in products | filter :$select.search | limitTo : sc.limitTime'>-->
+            <!--{{product.name}}-->
+        <!--</ui-select-choices>-->
+    <!--</ui-select>-->
 
-</div>
+<!--</div>-->
 
 
-<div class = "display" ng-repeat="product in products | orderBy: '-_rating' | limitTo : 5" >
+<div class = "display" ng-repeat="product in products | orderBy: '-_rating' | limitTo :  5" >
     <hr>
     <div class = "pro">
-        <img src="app/images/{{product.id}}.jpeg"><br>
-        {{ product.name }}<br>
-        {{ product.price }}
+        <a ui-sref = "productDetails({ id : product.id , type: product.type })"><img src="app/images/{{product.id}}.jpeg"></a><br>
+        <b>{{ product.name }} </b><br>
+        <b>{{ product.price }}</b><br>
+        <jk-rating-stars max-rating="5" rating="product._rating" read-only=true on-rating="ctrl.onRating(rating)" >
+        </jk-rating-stars>
     </div>
 </div>
 

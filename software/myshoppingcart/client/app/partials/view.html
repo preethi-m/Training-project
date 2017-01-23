@@ -1,0 +1,40 @@
+<hr>
+<div class = "proImage">
+    <img src = "/app/images/{{vc.pro.id}}.jpeg"><br>
+    <b>{{vc.pro.name}}</b>
+</div>
+
+<div class = "proDetails">
+    <label><b>Name:  </b> </label> {{vc.pro.name}}<br>
+    <label> <b>Description: </b></label> {{vc.pro.description}}<br>
+    <label> <b>Price: </b></label> {{vc.pro.price}}<br>
+    <label> <b>Rating: </b></label>
+    <jk-rating-stars max-rating="5" rating="vc.pro._rating" read-only=true on-rating="ctrl.onRating(rating)" >
+    </jk-rating-stars>
+    <label> <b>RAM: </b></label> {{vc.pro.RAM}}<br>
+    <label> <b>Color: </b></label> {{vc.pro.color}}<br>
+    <label> <b>Battery: </b></label> {{vc.pro.battery}}<br>
+    <label><b>Comments:</b></label><br>
+    <ol>
+        <div ng-repeat="com in vc.pro.comments">
+            <div><li>
+            <label> <b>Text: </b></label> {{com.text}}<br>
+            <label> <b>Commented On: </b></label> {{com.commentedOn}}<br>
+            <label> <b>UserName: </b></label> {{com.username}}<br></li>
+            </div>
+        </div>
+    </ol>
+</div>
+
+
+<div class = "sim">
+    <h4><b>Similar Products:</b></h4>
+</div>
+
+<div class = "similarPro" ng-repeat="det in vc.proList">
+
+    <a ui-sref = "productDetails({ id : det.id , type: det.type })">
+        <img src ="/app/images/{{det.id}}.jpeg" width = "100px" height="200px"></a><br>
+    <b>{{det.name}}</b><br>
+    <b>{{det.price}}</b>
+</div>

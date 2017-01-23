@@ -21,7 +21,7 @@
 
            $rootScope.products = data;
         })
-        vm.limitNameSearch = 500; //time for displaying suggestion
+        //vm.limitNameSearch = 500; //time for displaying suggestion
         vm.checkName = function(lettersTyped)
         {
 
@@ -35,4 +35,5 @@
         }
 
     }
+
 }());
