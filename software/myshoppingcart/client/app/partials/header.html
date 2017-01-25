@@ -11,16 +11,16 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Electronics <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Mobiles</a></li>
-                                    <li><a href="#">Laptops</a></li>
+                                    <li><a ui-sref="allProducts({ subType:'mobile'})">Mobiles</a></li>
+                                    <li><a ui-sref="allProducts({ subType:'laptop'})">Laptops</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Books <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Comic</a></li>
-                                    <li><a href="#">Fiction</a></li>
-                                    <li><a href="#">Biographies</a></li>
+                                    <li><a ui-sref="#">Comic</a></li>
+                                    <li><a ui-sref="#">Fiction</a></li>
+                                    <li><a ui-sref="#">Biographies</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -34,31 +34,22 @@
 
 <div class = "search" ng-controller = "SimpleController as sc ">
 
-    <ui-select ng-model = 'sc.selected' theme = "bootstrap" reset-search-input = "false">
+    <ui-select ng-model = 'sc.selected' theme = "bootstrap" reset-search-input = "false" onselect="onSelected($select.selected.id)">
 
         <ui-select-match placeholder = "Search for Products">
-            {{$select.selected.name}} < {{$select.selected.price}} {{$select.selected._rating}}>
+            {{$select.selected.name}}<div class = "searchAttr"> <ng-rate-it ng-model="$select.selected._rating" read-only="true"></ng-rate-it> </div>
+            <div class = "searchAttr1"> {{$select.selected.price | currency:'&#8360'}}  </div>
         </ui-select-match>
 
         <ui-select-choices refresh="sc.checkName($select.search)"
                            refresh-delay="0"
                            repeat = 'product in products | filter :$select.search | limitTo : sc.limitTime'>
-            {{product.name}}
+            {{product.name}}<div class = "searchAttr"> <ng-rate-it ng-model="product._rating"read-only="true"></ng-rate-it> </div>
+            <div class = "searchAttr1"> {{product.price | currency:'&#8360'}}  </div>
         </ui-select-choices>
     </ui-select>
 
 </div>
-
-<!--<div class = "display" ng-repeat="product in products | orderBy: '-_rating' | limitTo : 5">-->
-    <!--<hr>-->
-    <!--<div class = "pro">-->
-        <!--<a ui-sref = "productDetails({ id : product.id })"><img src="app/images/{{product.id}}.jpeg"></a><br>-->
-        <!--{{ product.name }}<br>-->
-        <!--{{ product.price }}-->
-    <!--</div>-->
-<!--</div>-->
-
-
 
 <!--<footer>-->
     <!--&lt;!&ndash;<hr>&ndash;&gt;-->

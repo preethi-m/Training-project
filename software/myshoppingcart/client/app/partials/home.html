@@ -1,41 +1,34 @@
-<!--<div class = "search">-->
-
-    <!--<ui-select ng-model = 'sc.selected' theme = "bootstrap" reset-search-input = "false">-->
-
-        <!--<ui-select-match placeholder = "Search for Products">-->
-            <!--{{$select.selected.name}}-->
-        <!--</ui-select-match>-->
-
-        <!--<ui-select-choices refresh="sc.checkName($select.search)"-->
-                           <!--refresh-delay="0"-->
-                           <!--repeat = 'product in products | filter :$select.search | limitTo : sc.limitTime'>-->
-            <!--{{product.name}}-->
-        <!--</ui-select-choices>-->
-    <!--</ui-select>-->
-
-<!--</div>-->
-
-
-<div class = "display" ng-repeat="product in products | orderBy: '-_rating' | limitTo :  5" >
+<div class = "heading">
+    <h1> Top 5 Mobiles</h1>
+</div>
+<div class = "displayMbl" ng-repeat="product in products | filter: { subType: 'mobile' } | orderBy: '-_rating' | limitTo :  5" >
     <hr>
     <div class = "pro">
-        <a ui-sref = "productDetails({ id : product.id , type: product.type })"><img src="app/images/{{product.id}}.jpeg"></a><br>
+        <a ui-sref = "productDetails({ id : product.id , subType: product.subType })"><img src="app/images/{{product.id}}.jpeg"></a><br>
         <b>{{ product.name }} </b><br>
         <b>{{ product.price }}</b><br>
-        <jk-rating-stars max-rating="5" rating="product._rating" read-only=true on-rating="ctrl.onRating(rating)" >
-        </jk-rating-stars>
+        <ng-rate-it ng-model="product._rating" read-only = "true"></ng-rate-it>
+        <!--<jk-rating-stars max-rating="5" rating="product._rating" read-only=true on-rating="ctrl.onRating(rating)" >-->
+        <!--</jk-rating-stars>-->
     </div>
 </div>
+<div class = "morePro"><a ui-sref="allProducts({ subType:'mobile'})">More Mobiles</a></div>
 
-
-
-<!--<div class = "display1" ng-repeat="x in sc.data | orderBy: '-_rating' | limitTo : 2" >-->
-
-    <!--<div ng-if="x.subType==='laptop'">-->
-        <!--<hr>-->
-        <!--<img src="app/images/{{x.id}}.jpeg">-->
-        <!--{{ x.name }}<br>-->
-        <!--{{ x.price }}<br>-->
-        <!--&lt;!&ndash;{{x.subType}}&ndash;&gt;-->
-    <!--</div>-->
-<!--</div>-->
+<!--<br><br><br>-->
+<div class = "heading">
+    <h1> Top 5 LapTops</h1>
+</div>
+<div class = "clearLine">
+    <div class = "displayLap" ng-repeat="product in products | filter: { subType: 'laptop' } | orderBy: '-_rating' | limitTo :  5" >
+        <hr>
+        <div class = "pro">
+            <a ui-sref = "productDetails({ id : product.id , subType: product.subType })"><img src="app/images/{{product.id}}.jpeg"></a><br>
+            <b>{{ product.name }} </b><br>
+            <b>{{ product.price }}</b><br>
+            <ng-rate-it ng-model="product._rating" read-only=" true"></ng-rate-it>
+            <!--<jk-rating-stars max-rating="5" rating="product._rating" read-only=true on-rating="ctrl.onRating(rating)" >-->
+            <!--</jk-rating-stars>-->
+        </div>
+    </div>
+</div>
+<div class = "morePro"><a ui-sref="allProducts({ subType:'laptop'})">More Laptops</a></div>

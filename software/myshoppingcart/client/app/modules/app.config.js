@@ -17,15 +17,21 @@
         //    controllerAs: 'sc'
         //})
             .state('productDetails', {
-                url:"/products/:id",
+                url:"/products/:subType/:id",
                 templateUrl: 'app/partials/view.html',
                 controller: 'ViewController',
                 controllerAs: 'vc',
-                params: { type : { value: - 1}}
+                //params: { subType : { value: - 1}}
+            })
+            .state('allProducts',{
+                url:"/products/:subType",
+                templateUrl:'app/partials/search.html',
+                controller:'SearchController',
+                controllerAs:'sc'
             })
             .state('/',{
                 url:"/",
-                templateUrl: 'app/partials/home.html',
+                templateUrl: 'app/partials/home.html'
             });
 
 

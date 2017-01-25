@@ -1,3 +1,7 @@
+<div class = "heading">
+    <h4>home</h4> > <h4>{{vc.pro.type}}</h4> > <h4> {{vc.pro.subType}}</h4>
+</div>
+
 <hr>
 <div class = "proImage">
     <img src = "/app/images/{{vc.pro.id}}.jpeg"><br>
@@ -9,8 +13,10 @@
     <label> <b>Description: </b></label> {{vc.pro.description}}<br>
     <label> <b>Price: </b></label> {{vc.pro.price}}<br>
     <label> <b>Rating: </b></label>
-    <jk-rating-stars max-rating="5" rating="vc.pro._rating" read-only=true on-rating="ctrl.onRating(rating)" >
-    </jk-rating-stars>
+    <ng-rate-it ng-model="vc.pro._rating" max = "8" rated = "firedFuncn(vc.pro.id,vc.pro._rating)"></ng-rate-it>
+    <!--{{vc.pro._rating}}-->
+    <!--<jk-rating-stars max-rating="5" rating="vc.pro._rating" read-only=true on-rating="ctrl.onRating(rating)" >-->
+    <!--</jk-rating-stars>-->
     <label> <b>RAM: </b></label> {{vc.pro.RAM}}<br>
     <label> <b>Color: </b></label> {{vc.pro.color}}<br>
     <label> <b>Battery: </b></label> {{vc.pro.battery}}<br>
@@ -31,10 +37,23 @@
     <h4><b>Similar Products:</b></h4>
 </div>
 
-<div class = "similarPro" ng-repeat="det in vc.proList">
+<div style = "display: inline-block; height: 350px;">
+    <div  class = "similarPro" ng-repeat="det in filtered = vc.proList |
+            startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
+        <div class = "adjustMbl" ng-if = "det.subType == 'mobile'">
+            <a ui-sref = "productDetails({ id : det.id , subType: det.subType })">
+            <img src ="/app/images/{{det.id}}.jpeg" ng-style = "{height: 200 +'px', width: 100 +'px'}"></a></div>
+        <div class = "adjustLap" ng-if = "det.subType == 'laptop'">
+            <a ui-sref = "productDetails({ id : det.id , subType: det.subType })">
+            <img src ="/app/images/{{det.id}}.jpeg" ng-style = "{height: 150 +'px', width: 200 +'px'}"></a></div>
+        <br>
+        <b>{{det.name}}</b><br>
+        <b>{{det.price}}</b>
+    </div>
+</div>
 
-    <a ui-sref = "productDetails({ id : det.id , type: det.type })">
-        <img src ="/app/images/{{det.id}}.jpeg" width = "100px" height="200px"></a><br>
-    <b>{{det.name}}</b><br>
-    <b>{{det.price}}</b>
+<div class = "text-center">
+    <div class = "pagination">
+        <pagination page="currentPage" max-size="noOfPages" total-items="totalItems" items-per-page="entryLimit">hi</pagination>
+    </div>
 </div>

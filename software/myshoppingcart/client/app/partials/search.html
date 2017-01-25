@@ -1,0 +1,15 @@
+<div class = "heading">
+    <h4><a ui-sref = "/" >Home </a> > <a ui-sref="#"> {{sc.sub}}</a></h4>
+</div>
+<div class = "subPro" ng-repeat="product in sc.subProList">
+    <div class = "adjustMbl" ng-if = "product.subType == 'mobile'">
+        <a ui-sref = "productDetails({ id : product.id , type: product.type, subType: product.subType })">
+            <img src ="/app/images/{{product.id}}.jpeg" ng-style = "{height: 200 +'px', width: 100 +'px'}"></a></div>
+    <div class = "adjustLap" ng-if = "product.subType == 'laptop'">
+        <a ui-sref = "productDetails({ id : product.id , type: product.type, subType: product.subType })">
+            <img src ="/app/images/{{product.id}}.jpeg" ng-style = "{height: 150 +'px', width: 200 +'px'}"></a></div>
+    <br>
+    <b>{{product.name}}</b><br>
+    <b>{{product.price}}</b>
+    <ng-rate-it ng-model="product._rating" read-only = "true"></ng-rate-it>
+</div>
